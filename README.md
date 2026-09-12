@@ -26,5 +26,5 @@ module "site" {
  
 | Nombre | Descripción |
 |---|---|
-| website_url | URL pública del sitio desplegado |
+| website_url | http://devsecops-lab-dev-2026-387677210026.s3-website-us-east-1.amazonaws.com/ |
 | bucket_arn | ARN del bucket creado |
