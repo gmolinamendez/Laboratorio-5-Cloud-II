@@ -3,3 +3,7 @@ variable "iam_user_name" {
   type        = string
   default     = "devsecops-lab-user"
 }
+variable "alert_email" {
+  description = "Correo que recibirá las alertas de CloudWatch"
+  type        = string
+}
