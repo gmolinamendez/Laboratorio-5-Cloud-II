@@ -2,5 +2,6 @@
 *.tfstate
 *.tfstate.backup
 *.tfvars
+*.zip
 node_modules/
 coverage/
