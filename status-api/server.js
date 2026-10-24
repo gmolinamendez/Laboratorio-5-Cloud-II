@@ -12,7 +12,7 @@ app.get('/health', (req, res) => {
 app.get('/', (req, res) => {
   requestCount += 1;
   res.status(200).json({
-    message: 'DevSecOps Lab - Status API',
+    message: 'DevSecOps Lab - Status API v2',
     hostname: os.hostname(),
     requestCount,
   });
